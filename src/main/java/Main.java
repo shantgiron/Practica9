@@ -30,7 +30,7 @@ public class Main {
         enableDebugScreen();
 //        port(80);
 
-        staticFiles.location("/public");
+       staticFiles.location("/public");
 
 
         ArrayList<Encuestado> listadoEncuestadosMain = new ArrayList<Encuestado>();
@@ -111,7 +111,7 @@ public class Main {
 
             model.put("encuestado",encuestado);
 
-            return new ModelAndView(model,"geolocalization.ftl");
+            return new ModelAndView(model,"geolocalizacion.ftl");
         },freeMarkerEngine);
     }
 }
