@@ -7,7 +7,7 @@
     <meta name="author" content="Dashboard">
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 
-    <title>Cliente HTML5</title>
+    <title>Practica 9 - HTML5</title>
 
     <!-- Bootstrap core CSS -->
     <link href=" niceTemplate/css/bootstrap.css" rel="stylesheet">
@@ -39,7 +39,7 @@
 </header>
 <div style="padding-top: 50px" class="container">
     <h1 class="well">Listado de encuestados</h1>
-</div>
+
 
 <div class="panel-footer insertar" style="background-color: mintcream">
 
@@ -76,14 +76,15 @@
 
 </div>
 
+
 <div class="panel panel-primary">
 
-    <div class="panel-body row form-inline">
+    <div class="panel-body1 row form-inline">
         <button style="border-radius: 30px" class="btn btn-primary" type="button" onclick="location.href = '/nuevo'">Nueva Encuesta</button>
         <button style="border-radius: 30px" class="btn btn-success" type="button" id="sincronizar">Sincronizar con servidor</button>
     </div>
 </div>
-
+</div>
 <!--footer INICIO-->
 <footer class="site-footer">
     <div class="text-center">

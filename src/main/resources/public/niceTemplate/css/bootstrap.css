@@ -2418,6 +2418,10 @@ input[type="month"].input-lg {
 }
 .form-group {
   margin-bottom: 15px;
+
+}
+.form-group1{
+  text-align: right;
 }
 .radio,
 .checkbox {
@@ -5002,6 +5006,12 @@ a.list-group-item-danger.active:focus {
 }
 .panel-body {
   padding: 15px;
+
+}
+
+.panel-body1{
+  text-align: right;
+  padding: 20px;
 }
 .panel-heading {
   padding: 10px 15px;
@@ -5211,7 +5221,7 @@ a.list-group-item-danger.active:focus {
   border-bottom-color: #ddd;
 }
 .panel-primary {
-  border-color: #428bca;
+  border-color: #cccccc96;
 }
 .panel-primary > .panel-heading {
   color: #fff;
@@ -5327,6 +5337,7 @@ a.list-group-item-danger.active:focus {
 }
 .well {
   min-height: 20px;
+  text-align: center;
   padding: 19px;
   margin-bottom: 20px;
   background-color: #f5f5f5;

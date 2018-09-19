@@ -39,7 +39,7 @@
 <!--header start-->
 <header class="header black-bg">
     <!--logo start-->
-    <a href="/inicio" class="logo"><b>Cliente HTML5</b></a>
+    <a href="/inicio" class="logo"><b>Inicio</b></a>
     <!--logo end-->
 </header>
 <!--header end-->
@@ -51,10 +51,10 @@
     <div class="panel panel-primary">
 
         <div class="panel-body">
-            <form  method="post" action="/new" name="myForm">
+            <form  method="post" action="/nuevo" name="myForm">
                 <div class="row">
 
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="form-group">
                             <input type="hidden" id="longitud" name="longitud" value=""/>
                             <input type="hidden" id="latitude" name="latitude" value=""/>
@@ -85,10 +85,10 @@
                                     <input type="text" id="sector" name="sector" class="form-control" placeholder="Digite su sector" required autofocus>
                                 </div>
 
-                                <div class="form-group">
+                                <div class="form-group1">
                                     <button style="border-radius: 30px" class="btn btn-success" type="button" onclick="insertarDB()">Registrar</button>
-                                    <button style="border-radius: 30px" class="btn btn-danger" type="button" onclick="editarDB()">Editar</button>
-                                    <button style="border-radius: 30px" class="btn btn-danger" type="button" onclick="guardarCambios()">Guardar</button>
+                                    <button style="border-radius: 30px" class="btn" type="button" onclick="editarDB()">Editar</button>
+                                    <button style="border-radius: 30px" class="btn" type="button" onclick="guardarCambios()">Guardar</button>
                                     <button style="border-radius: 30px" class="btn btn-danger" type="button" onclick="borrarEncuesta()">Borrar</button>
                                 </div>
                             </fieldset>

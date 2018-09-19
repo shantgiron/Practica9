@@ -413,7 +413,7 @@ ul.sidebar-menu li a.active i {
 }
 
 .black-bg {
-    background: #ffd777;
+    background: #e25a30;
     border-bottom: 1px solid #c9aa5f;
 }
 
@@ -2216,7 +2216,7 @@ label {
 
 /*footer*/
 .site-footer {
-    background: #68dff0;
+    background: #929292;
     color: #fff;
     padding: 10px 0;
 }
