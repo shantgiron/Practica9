@@ -145,7 +145,7 @@
             },
             action_nav: function () {
                 return myNavFunction(this.id);
-            },oook ps vete para hackear tu pc x hi hihih date pronto mejor dejame chequear algo pera
+            },
             ajax: {
                 url: "show_data.php?action=1",
                 modal: true
