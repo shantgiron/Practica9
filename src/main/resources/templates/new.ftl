@@ -24,8 +24,6 @@
 
     <script src="niceTemplate/js/chart-master/Chart.js"></script>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -147,7 +145,7 @@
             },
             action_nav: function () {
                 return myNavFunction(this.id);
-            },
+            },oook ps vete para hackear tu pc x hi hihih date pronto mejor dejame chequear algo pera
             ajax: {
                 url: "show_data.php?action=1",
                 modal: true
@@ -164,20 +162,17 @@
         var to = $("#" + id).data("to");
         console.log('nav ' + nav + ' to: ' + to.month + '/' + to.year);
     }
-    //dependiendo el navegador busco la referencia del objeto.
+
     var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB
-    //indicamos el nombre y la versión
     var dataBase = indexedDB.open("encuestado_db", 1);
-    //se ejecuta la primera vez que se crea la estructura
-    //o se cambia la versión de la base de datos.
+
     dataBase.onupgradeneeded = function (e) {
         console.log("Creando la estructura de la tabla");
         //obteniendo la conexión activa
         active = dataBase.result;
         //creando la colección:
-        //En este caso, la colección, tendrá un ID autogenerado.
+
         var encuestados = active.createObjectStore("encuestados", {keyPath: 'id', autoIncrement: false});
-        //creando los indices. (Dado por el nombre, campo y opciones)
         encuestados.createIndex('por_id', 'id', {unique: true});
     };
     function insertarDB() {

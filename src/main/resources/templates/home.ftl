@@ -234,9 +234,8 @@
             }
         };
 
-        //Una vez que se realiza la operación llamo la impresión.
+
         data.oncomplete = function () {
-            //imprimirTabla(encuestas_recuperados);
             sincronizar(encuestas_recuperados);
         }
 
@@ -250,7 +249,7 @@
 
             $.ajax({
                 type: "POST",
-                url:'/new',
+                url:'/nuevo',
                 dataType: "JSON",
                 contentType:"application/json; charset=utf-8",
                 data:JSON.stringify({
